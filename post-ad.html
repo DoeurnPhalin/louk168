@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Post-Ad</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
+		<link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
+		<link rel="stylesheet" href="css/menu_sideslide.css" type="text/css" media="all"><!-- Navigation-CSS -->
+		<!-- meta tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=" utf-8" />
+		<!-- //meta tags -->
+		<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<!-- js -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap-select.js"></script>
+	</head>
+<body>
+	<!-- Navigation -->
+	<div class="agiletopbar">
+		<div class="wthreenavigation">
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="mobiles.html"><i class="fa fa-fw fa-mobile"></i><span>Mobiles</span></a>
+						<a href="electronics-appliances.html"><i class="fa fa-fw fa-laptop"></i><span>Accessories</span></a>
+						<a href="cars.html"><i class="fa fa-fw fa-car"></i><span>Cars</span></a>
+						<a href="bikes.html"><i class="fa fa-fw fa-motorcycle"></i><span>Bikes</span></a>
+						<a href="furnitures.html"><i class="fa fa-fw fa-wheelchair"></i><span>Furnitures</span></a>
+						<a href="fashion.html"><i class="fa fa-fw fa-asterisk"></i><span>Fashion</span></a>
+						<a href="real-estate.html"><i class="fa fa-fw fa-home"></i><span>Real Estate</span></a>
+						<h3 style="text-align: center;color: white">Thank you for using our service. We are looking forward to your
+							feedback to improve our service. Your comment is appreciated</h3>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button">Close Menu</button>
+			</div>
+			<button class="menu-button" id="open-button" style="margin-top: -25px"> </button>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!-- //Navigation -->
+	<!-- header -->
+	<header>
+		<div class="container">
+			<div class="agile-its-header">
+				<div class="logo">
+					<h1><a href="index.html"><span>LOUK</span>168</a></h1>
+				</div>
+				<div class="agileits_search">
+					<a class="post-w3layouts-ad" href="">Sign In</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
+	<!-- breadcrumbs -->
+	<div class="w3layouts-breadcrumbs text-center">
+		<div class="container">
+			<span class="agile-breadcrumbs"><a href="index.html"><i class="fa fa-home home_1"></i></a> / <span>Post your Ad</span></span>
+		</div>
+	</div>
+	<!-- //breadcrumbs -->
+	<!-- Submit Ad -->
+	<div class="submit-ad main-grid-border">
+		<div class="container">
+			<h2 class="w3-head">Post an Ad</h2>
+			<div class="post-ad-form">
+				<form>
+					<label>Select Category <span>*</span></label>
+					<select class="">
+					  <option>Select Category</option>
+					  <option>Mobiles</option>
+					  <option>Electronics and Appliances</option>
+					  <option>Cars</option>
+					  <option>Bikes</option>
+					  <option>Furniture</option>
+					  <option>Pets</option>
+					  <option>Books, Sports and hobbies</option>
+					  <option>Fashion</option>
+					  <option>Kids</option>
+					  <option>Services</option>
+					  <option>Real, Estate</option>
+					</select>
+					<div class="clearfix"></div>
+					<label>Ad Title <span>*</span></label>
+					<input type="text" class="phone" placeholder="">
+					<div class="clearfix"></div>
+					<label>Ad Description <span>*</span></label>
+					<textarea class="mess" placeholder="Write few lines about your product"></textarea>
+					<div class="clearfix"></div>
+				<div class="upload-ad-photos">
+				<label>Photos for your ad :</label>	
+					<div class="photos-upload-view">
+						<form id="upload" action="index.html" method="POST" enctype="multipart/form-data">
+
+						<input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+						<div>
+							<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+							<div id="filedrag">or drop files here</div>
+						</div>
+
+						<div id="submitbutton">
+							<button type="submit">Upload Files</button>
+						</div>
+
+						</form>
+
+						<div id="messages">
+						<p>Status Messages</p>
+						</div>
+						</div>
+					<div class="clearfix"></div>
+						<script src="js/filedrag.js"></script>
+				</div>
+					<div class="personal-details">
+					<form>
+						<label>Your Name <span>*</span></label>
+						<input type="text" class="name" placeholder="">
+						<div class="clearfix"></div>
+						<label>Your Mobile No <span>*</span></label>
+						<input type="text" class="phone" placeholder="">
+						<div class="clearfix"></div>
+						<label>Your Email Address<span>*</span></label>
+						<input type="text" class="email" placeholder="">
+						<div class="clearfix"></div>
+						<p class="post-terms">By clicking <strong>post Button</strong> you accept our <a href="terms.html" target="_blank">Terms of Use </a> and <a href="privacy.html" target="_blank">Privacy Policy</a></p>
+					<input type="submit" value="Post">					
+					<div class="clearfix"></div>
+					</form>
+					</div>
+			</div>
+		</div>	
+	</div>
+	<!-- // Submit Ad -->
+	<!--footer section start-->		
+	<footer>
+		<div class="agileits-footer-bottom text-center">
+		<div class="container">
+			<div class="w3-footer-logo">
+				<h1><a href="index.html"><span>LOUK</span>168</a></h1>
+			</div>
+			<div class="copyrights">
+				<h3 style="color: white">Thank you so much for using our service. We are looking forward to see you again.</h3>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	</footer>
+        <!--footer section end-->
+</body>
+<script src="js/classie.js"></script>
+<script src="js/main.js"></script>
+</html>
